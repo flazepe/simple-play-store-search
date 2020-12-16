@@ -1,6 +1,7 @@
 # simple-play-store-search
 
 Search for an application from the Google Play Store.
+[npm](https://www.npmjs.com/package/simple-play-store-search)
 
 ```js
 const search = require("simple-play-store-search");

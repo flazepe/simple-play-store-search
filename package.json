@@ -1,6 +1,6 @@
 {
     "name": "simple-play-store-search",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Search for an application from the Google Play Store.",
     "main": "index.js",
     "scripts": {
@@ -11,5 +11,9 @@
     "license": "ISC",
     "dependencies": {
         "node-fetch": "^2.6.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flazepe/simple-play-store-search.git"
     }
 }
