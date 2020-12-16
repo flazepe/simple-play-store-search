@@ -13,22 +13,21 @@ module.exports = async query => {
         
         const json = JSON.parse(
             JSON.parse(body.slice(6))[0][2]
-        ).flat(5)[1].flat(Infinity).filter(x => x && typeof x !== "number").slice(2, -2);
-
-        const price = json.includes("Buy") ? json.splice(7, 6)[1] : "Free";
-        json.splice(4, 1);
+        ).flat(5)[1].flat(Infinity).filter(x => x && typeof x !== "number");
+        
+        const price = json.includes("Buy") ? json.splice(9, 6)[1] : "Free";
         
         return {
-            icon: json[0],
-            name: json[1],
-            url: baseURL + json[6],
+            icon: json[2],
+            name: json[3],
+            url: baseURL + json[9],
             developer: {
-                name: json[2],
-                url: baseURL + json[3]
+                name: json[4],
+                url: baseURL + json[5]
             },
-            price: price,
-            description: json[4],
-            rating: json[5]
+            price,
+            description: json[7],
+            rating: json[8]
         };
     }
     
