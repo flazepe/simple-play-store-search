@@ -1,0 +1,15 @@
+{
+    "name": "simple-play-store-search",
+    "version": "1.0.0",
+    "description": "Search for an application from the Google Play Store.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["play store", "search"],
+    "author": "flazepe",
+    "license": "ISC",
+    "dependencies": {
+        "node-fetch": "^2.6.1"
+    }
+}
