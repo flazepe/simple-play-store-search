@@ -1,8 +1,9 @@
 {
     "name": "simple-play-store-search",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Search for an application from the Google Play Store.",
     "main": "index.js",
+    "types": "index.d.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
