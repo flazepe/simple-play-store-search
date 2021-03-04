@@ -7,7 +7,10 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": ["play store", "search"],
+    "keywords": [
+        "play store",
+        "search"
+    ],
     "author": "flazepe",
     "license": "ISC",
     "dependencies": {
